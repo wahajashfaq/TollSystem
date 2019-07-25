@@ -1,12 +1,15 @@
 package com.ooad.models;
 
-public class Users {
+public class Users {	
 private String fName;
 private String LName;
 private String address;
 private int phoneNumber;
 private String dLicense;
 private String bankInfo;
+private String username;
+private String password;
+
 public String getfName() {
 	return fName;
 }

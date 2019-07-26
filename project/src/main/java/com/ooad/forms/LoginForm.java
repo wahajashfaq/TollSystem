@@ -56,8 +56,8 @@ public class LoginForm extends JFrame implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
-		HomeForm hForm = new HomeForm();
-		hForm.setVisible(true);
+		Account account = new Account();
+		account.setVisible(true);
 		this.dispose();
 	}
 }
